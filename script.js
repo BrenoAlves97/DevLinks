@@ -6,10 +6,8 @@ const imageChange = document.querySelector("#profile img")
 //Alterando o modo de tela;
 switchMode.addEventListener("click", function () {
   //Maneira de realizar
-  setTimeout(() => {
-    htmlRoot.classList.toggle("light")
-    changeImage()
-  }, 250)
+  htmlRoot.classList.toggle("light")
+  changeImage()
 })
 
 function changeImage() {
